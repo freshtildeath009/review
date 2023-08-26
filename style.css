@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.review-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.title{
+    position: relative;
+    bottom: 20px;
+}
+
+.review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 330px;
+    width: 293px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.person-img{
+    height: 115px;
+    width: 115px;
+    border-radius: 100%;
+    padding: 0.4rem;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.object-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.name{
+   padding: .3rem;
+}
+.skill{
+ padding-bottom: .8rem;   
+}
+
+.btn{
+    border: none;
+    cursor: pointer;
+    margin: 1rem;
+}
